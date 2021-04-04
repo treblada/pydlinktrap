@@ -1,0 +1,11 @@
+[Unit]
+Description=D-Link Trap message handling service
+
+[Service]
+ExecStart=/usr/local/sbin/dlinktrap.py
+StandardOutput=append:/var/log/dlinktrap.log
+StandardError=append:/var/log/dlinktrap.log
+# User=non-root-user
+
+[Install]
+WantedBy=multi-user.target
