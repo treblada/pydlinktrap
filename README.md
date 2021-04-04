@@ -39,12 +39,12 @@ The python executable comes with a command line help, which should explain the a
 options.
 
 The configuration file uses the long version of the CLI options as keywords.
-An example is included in [dlinktrap.ini].
+An example is included in [dlinktrap.ini](dlinktrap.ini).
 The program searches for the configuration file at `/etc/dlinktrap.ini`,
 unless the `--config` option defines something else.
 
-A *systemd* service file is included, see [dlinktrap.service]. On my ubuntu system it goes to
-`/lib/systemd/system`.
+A *systemd* service file is included, see [dlinktrap.service](dlinktrap.service).
+On my ubuntu system it goes to `/lib/systemd/system`.
 
 ## Caveats
 No error is issued for invalid/unknown configuration keys in the configuration file.
